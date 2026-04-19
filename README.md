@@ -43,3 +43,17 @@ MDN Web Docs (n.d.) *HTML: HyperText Markup Language*. Available at: https://dev
 W3Schools (n.d.) *HTML Tutorial*. Available at: https://www.w3schools.com/html/ (Accessed: 19 April 2026).
 
 OpenAI (2026) *ChatGPT assistance for HTML structure and README formatting*. Available at: https://chat.openai.com (Accessed: 19 April 2026).
+Afrihost (n.d.) Afrihost website. Available at: https://www.afrihost.com/ (Accessed: 9 
+April 2026).  
+
+Nathaniel Seloane (2026) Interview on company operations and website requirements. 
+Personal communication, 9 April. 
+
+Color Hunt (n.d.) Color palettes for design inspiration. Available at: https://colorhunt.co/ 
+(Accessed: 9 April 2026). 
+
+Freepik (n.d.) Free design resources and images. Available at: https://www.freepik.com/ 
+(Accessed: 9 April 2026). 
+ 
+Google Fonts (n.d.) Free font library. Available at: https://fonts.google.com/ (Accessed: 9 
+April 2026). 
