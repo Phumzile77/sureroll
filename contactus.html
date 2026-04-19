@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div style="text-align: center;">
+    <img src="img/Logo.png" width="300" height="200">
+    
+    <p style="word-spacing: 20px; font-size: 18px;">
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="services.html">Services</a> |
+        <a href="blog.html">Blog</a> |
+        <a href="contactus.html">Contact</a>
+    </p>
+</div>
+
+<!-- FORMS CONTAINER -->
+<div style="display: flex; justify-content: center; gap: 120px; margin-top: 50px; font-size: 18px;">
+
+    <!-- CONTACT FORM -->
+    <div>
+        <h2>Contact Us</h2>
+        <form>
+
+            <p>
+                <label>Full Name:</label><br>
+                <input type="text" name="fullname" style="width: 300px; padding: 8px;">
+            </p>
+
+            <p>
+                <label>Email Address:</label><br>
+                <input type="email" name="email" style="width: 300px; padding: 8px;">
+            </p>
+
+            <p>
+                <label>Phone Number:</label><br>
+                <input type="text" name="phone" style="width: 300px; padding: 8px;">
+            </p>
+
+            <p>
+                <label>Message:</label><br>
+                <textarea name="message" rows="5" style="width: 300px; padding: 8px;"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Send Message" style="padding: 10px 20px;">
+                <input type="reset" value="Clear" style="padding: 10px 20px;">
+            </p>
+
+        </form>
+    </div>
+
+    <!-- REQUEST A QUOTE FORM -->
+    <div>
+        <h2>Request a Quote</h2>
+        <form>
+
+            <p>
+                <label>Company Name:</label><br>
+                <input type="text" name="company" style="width: 300px; padding: 8px;">
+            </p>
+
+            <p>
+                <label>Number of Employees:</label><br>
+                <input type="number" name="employees" style="width: 300px; padding: 8px;">
+            </p>
+
+            <p>
+                <label>Services Needed:</label><br>
+                <select style="width: 320px; padding: 8px;">
+                    <option>Payroll</option>
+                    <option>Accounting</option>
+                    <option>HR Management</option>
+                    <option>Full Package</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Budget (Optional):</label><br>
+                <input type="text" name="budget" style="width: 300px; padding: 8px;">
+            </p>
+
+            <p>
+                <label>Additional Notes:</label><br>
+                <textarea rows="5" style="width: 300px; padding: 8px;"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Submit Request" style="padding: 10px 20px;">
+            </p>
+
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
