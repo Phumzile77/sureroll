@@ -54,6 +54,6 @@ Color Hunt (n.d.) Color palettes for design inspiration. Available at: https://c
 
 Freepik (n.d.) Free design resources and images. Available at: https://www.freepik.com/ 
 (Accessed: 9 April 2026). 
- 
+
 Google Fonts (n.d.) Free font library. Available at: https://fonts.google.com/ (Accessed: 9 
 April 2026). 
