@@ -5,77 +5,92 @@
     <title>Contact Us</title>
 </head>
 
-<body>
+<body style="margin: 0; font-family: Arial, sans-serif;">
 
 <!-- HEADER -->
-<div style="text-align: center;">
-    <a href="index.html">
-        <img src="img/Logo.png" width="300" height="200">
-    </a>
-    
-    <p style="word-spacing: 20px; font-size: 18px;">
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="services.html">Services</a> |
-        <a href="blog.html">Blog</a> |
-        <a href="contactus.html">Contact</a>
-    </p>
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 20px 50px; border-bottom: 1px solid #ddd;">
+
+    <!-- LOGO -->
+    <div>
+        <a href="index.html">
+            <img src="img/Logo2.png" width="220" height="140">
+        </a>
+    </div>
+
+    <!-- NAVIGATION -->
+    <div style="font-size: 18px;">
+        <a href="index.html" style="margin: 0 10px; text-decoration: none; color: black;">Home</a>
+        <a href="about.html" style="margin: 0 10px; text-decoration: none; color: black;">About</a>
+        <a href="services.html" style="margin: 0 10px; text-decoration: none; color: black;">Services</a>
+        <a href="blog.html" style="margin: 0 10px; text-decoration: none; color: black;">Blog</a>
+        <a href="contactus.html" style="margin: 0 10px; text-decoration: none; color: black;">Contact</a>
+    </div>
+
 </div>
 
-<!-- FORMS CONTAINER -->
-<div style="display: flex; justify-content: center; gap: 120px; margin-top: 50px; font-size: 18px;">
+<!-- PAGE TITLE -->
+<div style="text-align: center; padding: 40px 20px;">
+    <h1>Contact Us</h1>
+</div>
+
+<!-- FORMS SECTION -->
+<div style="display: flex; justify-content: center; gap: 80px; flex-wrap: wrap; padding: 20px;">
 
     <!-- CONTACT FORM -->
-    <div>
+    <div style="width: 350px;">
         <h2>Contact Us</h2>
+
         <form>
 
             <p>
                 <label>Full Name:</label><br>
-                <input type="text" name="fullname" style="width: 300px; padding: 8px;">
+                <input type="text" style="width: 100%; padding: 10px;">
             </p>
 
             <p>
                 <label>Email Address:</label><br>
-                <input type="email" name="email" style="width: 300px; padding: 8px;">
+                <input type="email" style="width: 100%; padding: 10px;">
             </p>
 
             <p>
                 <label>Phone Number:</label><br>
-                <input type="text" name="phone" style="width: 300px; padding: 8px;">
+                <input type="text" style="width: 100%; padding: 10px;">
             </p>
 
             <p>
                 <label>Message:</label><br>
-                <textarea name="message" rows="5" style="width: 300px; padding: 8px;"></textarea>
+                <textarea rows="5" style="width: 100%; padding: 10px;"></textarea>
             </p>
 
             <p>
-                <input type="submit" value="Send Message" style="padding: 10px 20px;">
-                <input type="reset" value="Clear" style="padding: 10px 20px;">
+                <input type="submit" value="Send Message"
+                       style="padding: 10px 20px; background: black; color: white; border: none;">
+                <input type="reset" value="Clear"
+                       style="padding: 10px 20px;">
             </p>
 
         </form>
     </div>
 
-    <!-- REQUEST A QUOTE FORM -->
-    <div>
+    <!-- REQUEST A QUOTE -->
+    <div style="width: 350px;">
         <h2>Request a Quote</h2>
+
         <form>
 
             <p>
                 <label>Company Name:</label><br>
-                <input type="text" name="company" style="width: 300px; padding: 8px;">
+                <input type="text" style="width: 100%; padding: 10px;">
             </p>
 
             <p>
                 <label>Number of Employees:</label><br>
-                <input type="number" name="employees" style="width: 300px; padding: 8px;">
+                <input type="number" style="width: 100%; padding: 10px;">
             </p>
 
             <p>
                 <label>Services Needed:</label><br>
-                <select style="width: 320px; padding: 8px;">
+                <select style="width: 100%; padding: 10px;">
                     <option>Payroll</option>
                     <option>Accounting</option>
                     <option>HR Management</option>
@@ -85,24 +100,26 @@
 
             <p>
                 <label>Budget (Optional):</label><br>
-                <input type="text" name="budget" style="width: 300px; padding: 8px;">
+                <input type="text" style="width: 100%; padding: 10px;">
             </p>
 
             <p>
                 <label>Additional Notes:</label><br>
-                <textarea rows="5" style="width: 300px; padding: 8px;"></textarea>
+                <textarea rows="5" style="width: 100%; padding: 10px;"></textarea>
             </p>
 
             <p>
-                <input type="submit" value="Submit Request" style="padding: 10px 20px;">
+                <input type="submit" value="Submit Request"
+                       style="padding: 10px 20px; background: black; color: white; border: none;">
             </p>
 
         </form>
     </div>
 
 </div>
-<!-- ADDRESS & MAP -->
-<div style="text-align: center; margin-top: 60px;">
+
+<!-- LOCATION -->
+<div style="text-align: center; margin-top: 60px; padding: 20px;">
 
     <h2>Our Location</h2>
 
@@ -113,16 +130,9 @@
         South Africa
     </p>
 
-    <!-- GOOGLE MAP -->
     <iframe 
         src="https://www.google.com/maps?q=60+Galaxy+Ave,+Frankenwald,+Sandton,+2090&output=embed"
-        width="600"
+        width="80%"
         height="350"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy">
+        style="border:0; max-width: 800px;">
     </iframe>
-
-</div>
-</body>
-</html>
