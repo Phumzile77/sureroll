@@ -14,6 +14,8 @@ This project involves the design and development of a simple website using HTML.
 - Home Page 
 - Contact form
 - About page
+- Services Page
+- Blog Page
 - Simple navigation links
 
 ## Key Features and Functionality
