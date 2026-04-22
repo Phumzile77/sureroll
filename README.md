@@ -57,3 +57,12 @@ Freepik (n.d.) Free design resources and images. Available at: https://www.freep
 
 Google Fonts (n.d.) Free font library. Available at: https://fonts.google.com/ (Accessed: 9 
 April 2026). 
+
+South African Revenue Service (2026) Tax compliance and business requirements. Available at: https://www.sars.gov.za
+ (Accessed: 22 April 2026).
+
+Investopedia (2026) Accounting and payroll definitions. Available at: https://www.investopedia.com
+ (Accessed: 22 April 2026).
+
+Small Enterprise Development Agency (2026) Small business support services. Available at: https://www.seda.org.za
+ (Accessed: 22 April 2026).
