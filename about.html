@@ -1,84 +1,73 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Us</title>
-
-    <!-- MOBILE RESPONSIVENESS -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Sureroll</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-<body style="margin: 0; font-family: Arial, sans-serif;">
-
-<!-- HEADER -->
-<div style="display: flex; align-items: center; justify-content: space-between; padding: 20px 50px; border-bottom: 1px solid #ddd;">
-
-    <!-- LOGO -->
-    <div>
-        <a href="index.html">
-            <img src="img/Logo2.png" style="width: 180px; height: auto;">
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Sureroll home">
+            <img src="img/Logo2-blue.png" alt="Sureroll logo">
         </a>
-    </div>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html">Blog</a>
+            <a href="contactus.html">Contact</a>
+        </nav>
+    </header>
 
-    <!-- NAVIGATION -->
-    <div style="font-size: 18px;">
-        <a href="index.html" style="margin: 0 10px; text-decoration: none; color: black;">Home</a>
-        <a href="about.html" style="margin: 0 10px; text-decoration: none; color: black;">About</a>
-        <a href="services.html" style="margin: 0 10px; text-decoration: none; color: black;">Services</a>
-        <a href="blog.html" style="margin: 0 10px; text-decoration: none; color: black;">Blog</a>
-        <a href="contactus.html" style="margin: 0 10px; text-decoration: none; color: black;">Contact</a>
-    </div>
+    <main>
+        <section class="page-hero image-page-hero">
+            <div>
+                <p class="eyebrow">About us</p>
+                <h1>Financial administration built on accuracy, trust, and clear communication.</h1>
+                <p>Sureroll supports businesses that need professional payroll and accounting expertise without building a full internal finance department.</p>
+            </div>
+            <img src="img/AboutUs.jpg" alt="Business team discussing financial planning">
+        </section>
 
-</div>
+        <section class="split-section white-bg">
+            <div>
+                <h2>Our approach</h2>
+                <p>We keep finance operations steady through consistent processes, responsive service, and practical reporting. You get a dependable partner who understands deadlines, compliance, and the importance of clean records.</p>
+            </div>
+            <div class="info-panel">
+                <h3>What clients value</h3>
+                <p>Clear timelines, accurate work, organized documents, and guidance that makes everyday business decisions easier.</p>
+            </div>
+        </section>
 
-<!-- HERO IMAGE -->
-<div style="padding: 20px 50px; text-align: center;">
-    <img src="img/AboutUs.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+        <section class="section section-light">
+            <div class="card-grid three-columns">
+                <article class="service-card">
+                    <h3>Our Mission</h3>
+                    <p>To remove the stress of payroll and accounting administration so business owners can focus on growth.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Our Promise</h3>
+                    <p>To deliver accurate, compliant, and timely work with communication you can rely on.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Our Focus</h3>
+                    <p>Payroll, accounting, tax, and reporting services tailored to the needs of small and growing businesses.</p>
+                </article>
+            </div>
+        </section>
 
-<!-- ABOUT CONTENT -->
-<div style="padding: 0 50px; max-width: 900px; margin: auto; line-height: 1.6;">
+        <section class="cta-section compact">
+            <h2>Ready to get started?</h2>
+            <p>Let us simplify your payroll and accounting needs today.</p>
+            <a class="btn btn-primary" href="contactus.html">Request a Call Back</a>
+        </section>
+    </main>
 
-    <h1>About Us</h1>
-
-    <p style="font-size: 18px; color: #444;">
-        We are a professional financial services company specializing in payroll, accounting, tax, and reporting solutions.  
-        Our goal is to help businesses simplify their financial processes and operate more efficiently.
-    </p>
-
-    <hr style="margin: 30px 0;">
-
-    <h2>What We Do</h2>
-    <p style="color: #555;">
-        We provide accurate and reliable payroll processing, accounting support, tax compliance, and financial reporting services tailored to businesses of all sizes.
-    </p>
-
-    <h2>Our Mission</h2>
-    <p style="color: #555;">
-        Our mission is to remove the stress of financial administration so our clients can focus on growing their businesses.
-    </p>
-
-    <h2>Why Choose Us</h2>
-    <p style="color: #555;">
-        We are committed to accuracy, compliance, affordability, and delivering dependable financial solutions you can trust.
-    </p>
-
-    <!-- CTA BOX -->
-    <div style="margin-top: 40px; padding: 20px; border: 1px solid #ddd; border-radius: 10px; background-color: #f9f9f9;">
-
-        <h2>Ready to Get Started?</h2>
-
-        <p>Let us simplify your payroll and accounting needs today.</p>
-
-        <a href="contactus.html" 
-           style="display: inline-block; padding: 12px 25px; background-color: black; color: white; text-decoration: none; border-radius: 5px;">
-            Request a Call Back
-        </a>
-
-    </div>
-
-</div>
-
+    <footer class="site-footer">
+        <p>&copy; 2026 Sureroll. Payroll, accounting, tax, and reporting support.</p>
+    </footer>
 </body>
 </html>
+
