@@ -1,97 +1,74 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Services</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Sureroll</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<body style="margin: 0; font-family: Arial, sans-serif;">
-
-<!-- HEADER -->
-<div style="display: flex; align-items: center; justify-content: space-between; padding: 20px 50px; border-bottom: 1px solid #ddd;">
-
-    <!-- LOGO -->
-    <div>
-        <a href="index.html">
-            <img src="img/Logo2.png" width="250" height="150">
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Sureroll home">
+            <img src="img/Logo2-blue.png" alt="Sureroll logo">
         </a>
-    </div>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="blog.html">Blog</a>
+            <a href="contactus.html">Contact</a>
+        </nav>
+    </header>
 
-    <!-- NAVIGATION -->
-    <div style="text-align: center; font-size: 18px;">
-        <a href="index.html" style="margin: 0 12px; text-decoration: none; color: black;">Home</a>
-        <a href="about.html" style="margin: 0 12px; text-decoration: none; color: black;">About</a>
-        <a href="services.html" style="margin: 0 12px; text-decoration: none; color: black;">Services</a>
-        <a href="blog.html" style="margin: 0 12px; text-decoration: none; color: black;">Blog</a>
-        <a href="contactus.html" style="margin: 0 12px; text-decoration: none; color: black;">Contact</a>
-    </div>
+    <main>
+        <section class="page-hero image-page-hero">
+            <div>
+                <p class="eyebrow">Our services</p>
+                <h1>Complete outsourced finance support for daily operations and monthly decisions.</h1>
+                <p>Choose focused support for one area, or combine payroll, accounting, tax, and reporting into one reliable service package.</p>
+            </div>
+            <img src="img/Accounting2.jpg" alt="Accounting documents and calculator on a desk">
+        </section>
 
-</div>
+        <section class="section">
+            <div class="card-grid three-columns">
+                <article class="service-card detailed-card">
+                    <h3>Payroll Management</h3>
+                    <p>Accurate salary processing, employee payments, payslips, deductions, overtime calculations, and payroll records.</p>
+                </article>
+                <article class="service-card detailed-card">
+                    <h3>Accounting</h3>
+                    <p>Organized bookkeeping that tracks income, expenses, and financial transactions so your records stay up to date.</p>
+                </article>
+                <article class="service-card detailed-card">
+                    <h3>Tax Compliance</h3>
+                    <p>Support with tax preparation, calculations, submissions, documentation, and deadline management.</p>
+                </article>
+                <article class="service-card detailed-card">
+                    <h3>Financial Reporting</h3>
+                    <p>Monthly and annual reports that highlight performance, trends, cash flow, and areas that need attention.</p>
+                </article>
+                <article class="service-card detailed-card">
+                    <h3>HR Administration</h3>
+                    <p>Employee information support and payroll-related HR records to keep people administration organized.</p>
+                </article>
+                <article class="service-card detailed-card">
+                    <h3>Full Package</h3>
+                    <p>An integrated solution for businesses that want one external partner managing finance administration.</p>
+                </article>
+            </div>
+        </section>
 
-<!-- SERVICES SECTION -->
-<div style="display: flex; margin-top: 40px;">
+        <section class="cta-section compact">
+            <h2>Need help with your finances?</h2>
+            <p>Let us handle your payroll, accounting, tax, and reporting needs.</p>
+            <a class="btn btn-primary" href="contactus.html">Request a Quote</a>
+        </section>
+    </main>
 
-    <!-- LEFT IMAGE -->
-    <div style="width: 35%;">
-        <img src="img/Accounting2.jpg" style="width: 100%; height: 70%; object-fit: cover;">
-    </div>
-
-    <!-- RIGHT CONTENT -->
-    <div style="width: 65%; padding: 50px;">
-
-        <h1>Our Services</h1>
-
-<div style="margin-top: 20px;">
-
-    <h2>Payroll</h2>
-    <p>
-        Accurate salary processing and employee payments done on time.<br>
-        We ensure all employees are paid correctly and consistently, including deductions, bonuses, and overtime calculations.<br>
-        This helps businesses maintain trust and compliance with labour requirements.
-    </p>
-    <br>
-
-    <h2>Accounting</h2>
-    <p>
-        Organised financial records and bookkeeping for your business.<br>
-        We track income, expenses, and financial transactions to keep your accounts accurate and up to date.<br>
-        This gives you a clear view of your business’s financial health at all times.
-    </p>
-    <br>
-
-    <h2>Tax</h2>
-    <p>
-        Tax preparation and compliance to keep your business fully compliant.<br>
-        We assist with calculating, filing, and submitting taxes on time to avoid penalties.<br>
-        Our goal is to ensure your business meets all legal tax requirements efficiently.
-    </p>
-    <br>
-
-    <h2>Reporting</h2>
-    <p>
-        Clear financial reports to help you make better business decisions.<br>
-        We provide detailed monthly and annual reports that highlight performance and trends.<br>
-        This helps you plan, budget, and grow your business with confidence.
-    </p>
-
-</div>
-
-        <!-- CTA BOX -->
-        <div style="margin-top: 40px; padding: 20px; border: 1px solid #ddd; background-color: #f9f9f9; border-radius: 10px;">
-
-            <h2>Need Help With Your Finances?</h2>
-
-            <p>Let us handle your payroll, accounting, and tax needs.</p>
-
-            <a href="contactus.html"
-               style="display:inline-block; padding:12px 25px; background:black; color:white; text-decoration:none; border-radius:5px;">
-                Request a Quote
-            </a>
-
-        </div>
-
-    </div>
-
-</div>
-
+    <footer class="site-footer">
+        <p>&copy; 2026 Sureroll. Payroll, accounting, tax, and reporting support.</p>
+    </footer>
 </body>
 </html>
+
