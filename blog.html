@@ -1,129 +1,85 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Sureroll</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<body style="margin: 0; font-family: Arial, sans-serif;">
-
-<!-- HEADER -->
-<div style="display: flex; align-items: center; justify-content: space-between; padding: 20px 50px; border-bottom: 1px solid #ddd;">
-
-    <!-- LOGO -->
-    <div>
-        <a href="index.html">
-            <img src="img/Logo2.png" width="220" height="140">
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Sureroll home">
+            <img src="img/Logo2-blue.png" alt="Sureroll logo">
         </a>
-    </div>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html" class="active">Blog</a>
+            <a href="contactus.html">Contact</a>
+        </nav>
+    </header>
 
-    <!-- NAVIGATION -->
-    <div style="font-size: 18px;">
-        <a href="index.html" style="margin: 0 10px; text-decoration: none; color: black;">Home</a>
-        <a href="about.html" style="margin: 0 10px; text-decoration: none; color: black;">About</a>
-        <a href="services.html" style="margin: 0 10px; text-decoration: none; color: black;">Services</a>
-        <a href="blog.html" style="margin: 0 10px; text-decoration: none; color: black;">Blog</a>
-        <a href="contactus.html" style="margin: 0 10px; text-decoration: none; color: black;">Contact</a>
-    </div>
+    <main>
+        <section class="page-hero image-page-hero">
+            <div>
+                <p class="eyebrow">Business insights</p>
+                <h1>Practical guidance for cleaner payroll, accounting, tax, and reporting.</h1>
+                <p>Simple finance articles to help business owners understand common risks and improve daily operations.</p>
+            </div>
+            <img src="img/Blog.jpg" alt="Person writing business notes beside a laptop">
+        </section>
 
-</div>
+        <section class="section section-light">
+            <div class="blog-list">
+                <article class="blog-post">
+                    <p class="eyebrow">Payroll</p>
+                    <h2>Payroll mistakes small businesses make</h2>
+                    <details>
+                        <summary>Read more</summary>
+                        <p>Common payroll mistakes include classifying workers incorrectly, missing payment deadlines, keeping poor records, applying incorrect tax deductions, and failing to update employee information when details change. These mistakes can create compliance issues, salary disputes, and avoidable penalties.</p>
+                    </details>
+                </article>
 
-<!-- PAGE TITLE -->
-<div style="text-align: center; padding: 40px 20px;">
-    <h1>Our Blog</h1>
-</div>
+                <article class="blog-post">
+                    <p class="eyebrow">Accounting</p>
+                    <h2>Why proper accounting saves you money</h2>
+                    <details>
+                        <summary>Read more</summary>
+                        <p>Accurate bookkeeping reduces errors in financial records and tax submissions. It improves cash flow visibility, helps you claim eligible deductions, supports better decisions, and makes it easier to identify irregular or suspicious activity early.</p>
+                    </details>
+                </article>
 
-<!-- BLOG CONTENT -->
-<div style="max-width: 900px; margin: auto; padding: 20px;">
+                <article class="blog-post">
+                    <p class="eyebrow">Tax</p>
+                    <h2>Tax tips every business owner should know</h2>
+                    <details>
+                        <summary>Read more</summary>
+                        <p>Keep accurate records, understand which expenses can be claimed, separate business and personal finances, file before deadlines, and get professional support when tax requirements become complex.</p>
+                    </details>
+                </article>
 
-    <!-- POST 1 -->
-    <h2>Payroll Mistakes Small Businesses Make</h2>
-    <details>
-        <summary>Read More</summary>
+                <article class="blog-post">
+                    <p class="eyebrow">Reporting</p>
+                    <h2>How financial reporting helps you grow</h2>
+                    <details>
+                        <summary>Read more</summary>
+                        <p>Financial reports show profit, loss, cash flow, and spending trends. They support better decisions on pricing, hiring, investment, and cost control while building confidence with stakeholders.</p>
+                    </details>
+                </article>
+            </div>
+        </section>
 
-<p>
-Small businesses often face several common payroll challenges that can lead to compliance issues and financial risks.<br><br>
+        <section class="cta-section compact">
+            <h2>Need practical finance support?</h2>
+            <p>Speak to Sureroll about payroll, accounting, tax, or reporting services.</p>
+            <a class="btn btn-primary" href="contactus.html">Contact Us</a>
+        </section>
+    </main>
 
-One major issue is the incorrect classification of employees, where workers are mistakenly treated as independent contractors instead of employees.<br><br>
-
-In addition, missing payroll deadlines, such as late salary payments or delayed tax submissions, can result in penalties and legal complications.<br><br>
-
-Poor record keeping is another concern, as inadequate payroll records may cause disputes and errors in salary calculations.<br><br>
-
-Furthermore, incorrect tax deductions, particularly in PAYE or UIF, can lead to financial losses or fines.<br><br>
-
-Lastly, failing to regularly update payroll information when employee details change can result in inaccurate payroll processing and further administrative problems.
-</p>
-    </details>
-
-    <hr style="margin: 30px 0;">
-
-    <!-- POST 2 -->
-    <h2>Why Proper Accounting Saves You Money</h2>
-    <details>
-        <summary>Read More</summary>
-
-<p>
-Preventing costly mistakes is essential for any business, as accurate bookkeeping reduces errors in financial records and tax submissions.<br><br>
-
-It also improves cash flow by helping you clearly track income and expenses, ensuring better financial management.<br><br>
-
-In addition, proper bookkeeping can reduce tax liability by making sure you claim all eligible deductions.<br><br>
-
-With accurate financial reports, businesses are able to make better, more informed decisions that support growth and stability.<br><br>
-
-Lastly, regular bookkeeping plays an important role in preventing fraud, as it helps detect any irregular or suspicious activity early.
-</p>
-    </details>
-
-    <hr style="margin: 30px 0;">
-
-    <!-- POST 3 -->
-    <h2>Tax Tips Every Business Owner Should Know</h2>
-    <details>
-        <summary>Read More</summary>
-<p>
-Keeping accurate records is essential, as proper bookkeeping ensures correct tax filing and reduces the risk of errors.<br><br>
-
-It is also important to understand deductions, so you know which business expenses can be claimed and maximize your savings.<br><br>
-
-Separating finances by using a dedicated business bank account helps maintain clear financial tracking and professionalism.<br><br>
-
-Filing on time is crucial to avoid penalties and stay compliant with tax regulations.<br><br>
-
-Lastly, using an accountant provides professional support, improving compliance and helping your business achieve better financial outcomes.
-</p>
-    </details>
-
-    <hr style="margin: 30px 0;">
-
-    <!-- POST 4 -->
-    <h2>How Financial Reporting Helps You Grow</h2>
-    <details>
-        <summary>Read More</summary>
-<p>
-Business performance insight is crucial, as it shows profit, loss, and overall financial trends, helping you understand how your business is performing.<br><br>
-
-It also supports better decision making by guiding important choices such as hiring, pricing, and investments.<br><br>
-
-Effective cash flow management allows you to track money coming in and going out of your business, ensuring financial stability.<br><br>
-
-In addition, identifying unnecessary expenses helps with cost reduction and improves overall efficiency.<br><br>
-
-Lastly, strong financial reports build investor confidence, making it easier to attract funding and gain trust from stakeholders.
-</p>
-    </details>
-
-</div>
-
-<!-- CTA -->
-<div style="text-align: center; padding: 50px 20px;">
-
-    <a href="contactus.html"
-       style="display:inline-block; padding:12px 25px; background:black; color:white; text-decoration:none; font-size:18px; border-radius:5px;">
-        Contact Us
-    </a>
-
-</div>
-
+    <footer class="site-footer">
+        <p>&copy; 2026 Sureroll. Payroll, accounting, tax, and reporting support.</p>
+    </footer>
 </body>
 </html>
+
