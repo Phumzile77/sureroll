@@ -138,6 +138,12 @@ img {
     border-radius: 8px;
     box-shadow: var(--shadow);
 }
+.image-page-hero img.full-image {
+    min-height: 0;
+    max-height: 420px;
+    object-fit: contain;
+    background: var(--white);
+}
 
 .button-row {
     display: flex;
@@ -462,4 +468,6 @@ img {
         min-height: 260px;
     }
 }
+
+
 
