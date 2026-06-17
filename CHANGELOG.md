@@ -2,6 +2,34 @@
 
 All notable changes made to the Sureroll website project are recorded in this file.
 
+## 2026-05-28
+
+### Added
+- Added external JavaScript file `js/script.js` for Part 3 functionality.
+- Added `contact.html` for general contact messages and `enquiry.html` for service quote enquiries.
+- Added dynamic service rendering, service search, service sorting, form validation, quote estimates, lightbox image previews, and scroll animations.
+- Added SEO metadata, canonical links, `robots.txt`, and `sitemap.xml`.
+- Added asynchronous JavaScript processing before the email message is prepared by the contact and enquiry forms.
+- Added a README sitemap, deployment note, Part 3 submission check, and AI assistance disclosure.
+- Added Part 2 CSS styling and responsive design details to `README.md`.
+- Added responsive design testing evidence to `README.md` for desktop, tablet, and mobile screen sizes.
+- Added testing screenshots: `img/desktop-test.png`, `img/tablet-test.png`, and `img/mobile-test.png`.
+- Added CSS, JavaScript, form validation, and responsive design references to the README references section.
+- Added responsive image variants for website images, including 640px and 1000px versions.
+- Added responsive logo image variants for improved loading on smaller screens.
+
+### Changed
+- Kept `contactus.html` as a redirect to `contact.html` for older links.
+- Moved `style.css` into the `css` folder and updated all HTML pages to link to `css/style.css`.
+- Updated website image tags to use `srcset` and `sizes` attributes for responsive image loading.
+- Renamed the tablet screenshot from `tablet- test.png` to `tablet-test.png` so the README image link works correctly.
+- Updated the About page image styling so the full image displays instead of being cropped.
+
+### Fixed
+- Fixed the About page image by applying a `full-image` class with `object-fit: contain`.
+- Verified that README screenshot links point to existing image files.
+- Verified that local image references used by the website exist in the project folder.
+
 ## 2026-05-27
 
 ### Added
@@ -21,7 +49,7 @@ All notable changes made to the Sureroll website project are recorded in this fi
 - Updated `contactus.html` with improved form structure, labels, placeholders, and layout.
 - Replaced the green logo with the blue logo on all pages to match the website colour scheme.
 - Increased the logo display size in the website header.
-- Moved styling into `style.css` instead of using inline styles inside the HTML pages.
+- Moved styling into `css/style.css` instead of using inline styles inside the HTML pages.
 
 ### Fixed
 - Fixed missing closing HTML tags on the Contact page.
@@ -44,3 +72,15 @@ All notable changes made to the Sureroll website project are recorded in this fi
 - Created the initial project README file.
 - Added student information, project overview, features, milestones, and references.
 - Planned the basic HTML structure for the Sureroll website.
+
+
+
+
+
+
+
+
+
+
+
+
