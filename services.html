@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services | Sureroll</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Explore Sureroll services including payroll management, accounting, tax compliance, HR administration, and financial reporting.">
+    <meta name="keywords" content="payroll management, bookkeeping, tax compliance, HR administration, financial reporting, Sureroll services">
+    <title>Sureroll Services | Payroll, Accounting, Tax and Reporting</title>
+    <link rel="canonical" href="https://phumzile77.github.io/sureroll/services.html">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page-services">
     <header class="site-header">
         <a class="brand" href="index.html" aria-label="Sureroll home">
             <img src="img/Logo2-blue.png" srcset="img/Logo2-blue-320.png 320w, img/Logo2-blue.png 995w" sizes="(max-width: 620px) 210px, 260px" alt="Sureroll logo">
@@ -16,7 +19,8 @@
             <a href="about.html">About</a>
             <a href="services.html" class="active">Services</a>
             <a href="blog.html">Blog</a>
-            <a href="contactus.html">Contact</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
@@ -25,51 +29,44 @@
             <div>
                 <p class="eyebrow">Our services</p>
                 <h1>Complete outsourced finance support for daily operations and monthly decisions.</h1>
-                <p>Choose focused support for one area, or combine payroll, accounting, tax, and reporting into one reliable service package.</p>
+                <p>Choose focused support for one area, or combine Payroll, Accounting, Tax, and Reporting into one reliable service package.</p>
             </div>
             <img src="img/Accounting2.jpg" srcset="img/Accounting2-640.jpg 640w, img/Accounting2-1000.jpg 1000w, img/Accounting2.jpg 1200w" sizes="(max-width: 980px) 86vw, 34vw" alt="Accounting documents and calculator on a desk">
         </section>
 
         <section class="section">
-            <div class="card-grid three-columns">
-                <article class="service-card detailed-card">
-                    <h3>Payroll Management</h3>
-                    <p>Accurate salary processing, employee payments, payslips, deductions, overtime calculations, and payroll records.</p>
-                </article>
-                <article class="service-card detailed-card">
-                    <h3>Accounting</h3>
-                    <p>Organized bookkeeping that tracks income, expenses, and financial transactions so your records stay up to date.</p>
-                </article>
-                <article class="service-card detailed-card">
-                    <h3>Tax Compliance</h3>
-                    <p>Support with tax preparation, calculations, submissions, documentation, and deadline management.</p>
-                </article>
-                <article class="service-card detailed-card">
-                    <h3>Financial Reporting</h3>
-                    <p>Monthly and annual reports that highlight performance, trends, cash flow, and areas that need attention.</p>
-                </article>
-                <article class="service-card detailed-card">
-                    <h3>HR Administration</h3>
-                    <p>Employee information support and payroll-related HR records to keep people administration organized.</p>
-                </article>
-                <article class="service-card detailed-card">
-                    <h3>Full Package</h3>
-                    <p>An integrated solution for businesses that want one external partner managing finance administration.</p>
-                </article>
+            <div class="service-tools" aria-label="Service search and sort tools">
+                <label for="service-search">Search services</label>
+                <input id="service-search" type="search" placeholder="Search payroll, tax, reporting...">
+
+                <label for="service-sort">Sort services</label>
+                <select id="service-sort">
+                    <option value="default">Default order</option>
+                    <option value="name">Name A-Z</option>
+                    <option value="price">Estimated cost</option>
+                </select>
             </div>
+            <div class="card-grid three-columns" id="services-list" aria-live="polite"></div>
         </section>
 
         <section class="cta-section compact">
             <h2>Need help with your finances?</h2>
             <p>Let us handle your payroll, accounting, tax, and reporting needs.</p>
-            <a class="btn btn-primary" href="contactus.html">Request a Quote</a>
+            <a class="btn btn-primary" href="enquiry.html">Request a Quote</a>
         </section>
     </main>
 
     <footer class="site-footer">
-        <p>&copy; 2026 Sureroll. Payroll, accounting, tax, and reporting support.</p>
+        <p>&copy; 2026 Sureroll. Payroll, Accounting, Tax, and Reporting support.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
 
 
