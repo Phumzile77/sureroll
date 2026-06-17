@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Sureroll for payroll, accounting, tax, and reporting support in Sandton, South Africa.">
+    <meta name="keywords" content="Sureroll contact, payroll support Sandton, accounting services, tax support, financial reporting">
+    <title>Contact Sureroll | Payroll and Accounting Support</title>
+    <link rel="canonical" href="https://phumzile77.github.io/sureroll/contact.html">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Sureroll home">
+            <img src="img/Logo2-blue.png" srcset="img/Logo2-blue-320.png 320w, img/Logo2-blue.png 995w" sizes="(max-width: 620px) 210px, 260px" alt="Sureroll logo">
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html">Blog</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero image-page-hero">
+            <div>
+                <p class="eyebrow">Contact us</p>
+                <h1>Send a general message to Sureroll.</h1>
+                <p>Use this form for general questions, support requests, or messages for our payroll and accounting team.</p>
+            </div>
+            <img src="img/ContactUs.jpg" srcset="img/ContactUs-640.jpg 640w, img/ContactUs-1000.jpg 1000w, img/ContactUs.jpg 1200w" sizes="(max-width: 980px) 86vw, 34vw" alt="Customer support professional working at a laptop">
+        </section>
+
+        <section class="contact-section single-form-section">
+            <form class="form-card js-validate-form" id="contact-form" action="mailto:hello@sureroll.co.za" method="post" enctype="text/plain" data-form-type="contact" novalidate>
+                <h2>Contact Form</h2>
+                <p class="form-intro">Fields marked with * are required.</p>
+
+                <label for="contact-name">Full Name *</label>
+                <input id="contact-name" name="Full Name" type="text" placeholder="Your full name" minlength="2" required>
+                <small class="error-message" data-error-for="contact-name"></small>
+
+                <label for="contact-email">Email Address *</label>
+                <input id="contact-email" name="Email Address" type="email" placeholder="you@example.com" required>
+                <small class="error-message" data-error-for="contact-email"></small>
+
+                <label for="contact-phone">Phone Number *</label>
+                <input id="contact-phone" name="Phone Number" type="tel" placeholder="+27 00 000 0000" pattern="^(\+27|0)[0-9\s-]{9,}$" required>
+                <small class="error-message" data-error-for="contact-phone"></small>
+
+                <label for="contact-type">Message Type *</label>
+                <select id="contact-type" name="Message Type" required>
+                    <option value="">Select message type</option>
+                    <option>General Question</option>
+                    <option>Support Request</option>
+                    <option>Follow Up</option>
+                    <option>Other</option>
+                </select>
+                <small class="error-message" data-error-for="contact-type"></small>
+
+                <label for="contact-message">Message *</label>
+                <textarea id="contact-message" name="Message" rows="6" placeholder="Type your message" minlength="10" required></textarea>
+                <small class="error-message" data-error-for="contact-message"></small>
+
+                <div class="button-row">
+                    <button class="btn btn-primary" type="submit">Prepare Email</button>
+                    <button class="btn btn-secondary" type="reset">Clear</button>
+                </div>
+                <p class="form-response" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section class="location-section">
+            <div>
+                <p class="eyebrow">Our location</p>
+                <h2>Visit or contact us</h2>
+                <p>60 Galaxy Ave<br>Frankenwald<br>Sandton, 2090<br>South Africa</p>
+            </div>
+            <iframe title="Sureroll location map" src="https://www.google.com/maps?q=60+Galaxy+Ave,+Frankenwald,+Sandton,+2090&output=embed" loading="lazy"></iframe>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Sureroll. Payroll, Accounting, Tax, and Reporting support.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
