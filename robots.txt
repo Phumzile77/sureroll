@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+Disallow: /contactus.html
+
+Sitemap: https://phumzile77.github.io/sureroll/sitemap.xml
