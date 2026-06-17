@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Request a Sureroll quote for payroll, accounting, tax, HR administration, and reporting services.">
+    <meta name="keywords" content="Sureroll enquiry, payroll quote, accounting quote, tax services, HR administration, reporting services">
+    <title>Enquiry | Request a Sureroll Service Quote</title>
+    <link rel="canonical" href="https://phumzile77.github.io/sureroll/enquiry.html">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Sureroll home">
+            <img src="img/Logo2-blue.png" srcset="img/Logo2-blue-320.png 320w, img/Logo2-blue.png 995w" sizes="(max-width: 620px) 210px, 260px" alt="Sureroll logo">
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html">Blog</a>
+            <a href="enquiry.html" class="active">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero image-page-hero">
+            <div>
+                <p class="eyebrow">Request a quote</p>
+                <h1>Enquire about Sureroll services.</h1>
+                <p>Tell us which services you need and we will estimate the best support option for your business.</p>
+            </div>
+            <img src="img/Accounting2.jpg" srcset="img/Accounting2-640.jpg 640w, img/Accounting2-1000.jpg 1000w, img/Accounting2.jpg 1200w" sizes="(max-width: 980px) 86vw, 34vw" alt="Accounting workspace with financial documents">
+        </section>
+
+        <section class="contact-section single-form-section">
+            <form class="form-card js-validate-form" id="enquiry-form" action="mailto:hello@sureroll.co.za" method="post" enctype="text/plain" data-form-type="enquiry" novalidate>
+                <h2>Enquiry Form</h2>
+                <p class="form-intro">Complete the form to receive a service response and estimated starting cost.</p>
+
+                <label for="company-name">Company Name *</label>
+                <input id="company-name" name="Company Name" type="text" placeholder="Your company name" minlength="2" required>
+                <small class="error-message" data-error-for="company-name"></small>
+
+                <label for="enquiry-name">Contact Person *</label>
+                <input id="enquiry-name" name="Contact Person" type="text" placeholder="Your full name" minlength="2" required>
+                <small class="error-message" data-error-for="enquiry-name"></small>
+
+                <label for="enquiry-email">Email Address *</label>
+                <input id="enquiry-email" name="Email Address" type="email" placeholder="you@example.com" required>
+                <small class="error-message" data-error-for="enquiry-email"></small>
+
+                <label for="enquiry-phone">Phone Number *</label>
+                <input id="enquiry-phone" name="Phone Number" type="tel" placeholder="+27 00 000 0000" pattern="^(\+27|0)[0-9\s-]{9,}$" required>
+                <small class="error-message" data-error-for="enquiry-phone"></small>
+
+                <label for="employee-count">Number of Employees *</label>
+                <input id="employee-count" name="Number of Employees" type="number" min="1" max="5000" placeholder="Example: 25" required>
+                <small class="error-message" data-error-for="employee-count"></small>
+
+                <label for="service-needed">Service Needed *</label>
+                <select id="service-needed" name="Service Needed" required>
+                    <option value="">Select a service</option>
+                    <option value="Payroll">Payroll</option>
+                    <option value="Accounting">Accounting</option>
+                    <option value="Tax">Tax</option>
+                    <option value="Reporting">Reporting</option>
+                    <option value="HR Management">HR Management</option>
+                    <option value="Full Package">Full Package</option>
+                </select>
+                <small class="error-message" data-error-for="service-needed"></small>
+
+                <label for="start-date">Preferred Start Date</label>
+                <input id="start-date" name="Preferred Start Date" type="date">
+
+                <label for="enquiry-notes">Additional Notes</label>
+                <textarea id="enquiry-notes" name="Additional Notes" rows="5" placeholder="Briefly describe your requirements"></textarea>
+
+                <div class="quote-result" id="quote-result" aria-live="polite"></div>
+
+                <div class="button-row">
+                    <button class="btn btn-primary" type="submit">Calculate and Prepare Email</button>
+                    <button class="btn btn-secondary" type="reset">Clear</button>
+                </div>
+                <p class="form-response" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Sureroll. Payroll, Accounting, Tax, and Reporting support.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
