@@ -144,7 +144,7 @@ function setupForms() {
 }
 
 function setupLightbox() {
-    const images = document.querySelectorAll(".hero-image img, .image-page-hero img");
+    const images = document.querySelectorAll(".hero-image img, .image-page-hero img, .gallery-grid img");
     if (!images.length) return;
 
     const lightbox = document.createElement("div");

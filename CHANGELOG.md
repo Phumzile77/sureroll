@@ -17,6 +17,7 @@ All notable changes made to the Sureroll website project are recorded in this fi
 - Added CSS, JavaScript, form validation, and responsive design references to the README references section.
 - Added responsive image variants for website images, including 640px and 1000px versions.
 - Added responsive logo image variants for improved loading on smaller screens.
+- Added an About page image gallery that uses the existing lightbox preview feature.
 
 ### Changed
 - Kept `contactus.html` as a redirect to `contact.html` for older links.

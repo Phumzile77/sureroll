@@ -78,6 +78,7 @@ The following improvements were made for Part 3:
 - Added lightbox image previews so users can click page images to view them larger.
 - Added simple scroll reveal animations using JavaScript and CSS.
 - Added page-specific animations on the Home page hero section and Services page service cards.
+- Added an About page image gallery that opens larger image previews in the lightbox.
 - Added SEO title tags, meta descriptions, keywords, canonical links, descriptive alt text, internal links, `robots.txt`, and `sitemap.xml`.
 - Kept the old `contactus.html` page as a redirect to the new `contact.html` page.
 ## Recent Changes
@@ -109,7 +110,7 @@ The website was reviewed again before submission to confirm that the Part 3 requ
 - The Contact and Enquiry pages include client-side JavaScript validation.
 - The Enquiry page displays a quote estimate based on selected service and number of employees.
 - The forms use asynchronous JavaScript processing before preparing the email message.
-- Website images support clickable lightbox previews.
+- Website images and the About page gallery support clickable lightbox previews.
 - Scroll reveal animations are applied to cards and panels.
 - The Home page and Services page include visible CSS animations.
 - Each HTML page includes SEO title tags, meta descriptions, canonical links, and descriptive alt text.
